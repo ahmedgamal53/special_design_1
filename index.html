@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design 1</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Farro:wght@300;400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear fa-spin"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="rgb(255 152 0 / 33%)"></li>
+                    <li data-color="rgb(233 30 99 / 40%)"></li>
+                    <li data-color="rgb(0 150 136 / 45%)"></li>
+                    <li data-color="rgb(3 169 244 / 34%)"></li>
+                    <li data-color="rgb(76 175 80 / 45%)"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-backgrouns">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Testing option</h4>
+                <div class="testing-option">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <button class="reset-option"> Reset option</button>
+        </div>
+    </div>
+
+    <!-- end setting box -->
+
+    <!-- start Nav bullets -->
+
+
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+
+    </div>
+
+
+    <!-- end Nav bullets -->
+
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us" class="active">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We Are <span>Creative </span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+        </div>
+    </div>
+
+    <!-- end landing page -->
+
+    <!-- start about Us -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum iure molestias error labore
+                    dolor assumenda voluptates unde, illo nobis cupiditate. </p>
+            </div>
+            <div class="image-box">
+                <img src="imgs/Best Software Development Company in India _ Slash Star.avif" loading="lazy" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about Us -->
+    <!-- start skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skills-box">
+                <div class="skills-name">HTML</div>
+                <div class="skills-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">CSS</div>
+                <div class="skills-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">Js</div>
+                <div class="skills-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end skills -->
+    <!-- start gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="imgs/1.jpg" loading="lazy" alt="image one">
+                <img src="imgs/2.jpg" loading="lazy" alt="image two">
+                <img src="imgs/3.avif" loading="lazy" alt="image three">
+                <img src="imgs/4.jpg" loading="lazy" alt="image four">
+                <img src="imgs/5.jpg" loading="lazy" alt="image five">
+                <img src="imgs/background-realistic-abstract-technology-particle_23-2148431735.avif" loading="lazy"
+                    alt="">
+                <img src="imgs/Best Software Development Company in India _ Slash Star.avif" loading="lazy" alt="">
+                <img src="imgs/download (1).avif" alt="">
+                <img src="imgs/download.avif" alt="">
+                <img src="imgs/pexels-sanaan-3052361.avif" loading="lazy" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2019</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end timeline -->
+
+    <!-- start features -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="features-content">
+                <div class="feat-box">
+                    <img src="imgs/images (1).avif" loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/images.avif" loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/—Pngtree—recruitment computer programmer programming poster_1120467.avif"
+                        loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/—Pngtree—symbolic code a 3d rendering_6956868.avif" loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/images (2).avif" loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/download (2).avif" loading="lazy" alt="">
+                    <h4>Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque velit asperiores</p>
+                </div>
+                <!-- <div class="clearfix"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- end features -->
+    <!-- start testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-content">
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast anf the price was amazing
+                    </p>
+                    <div class="person-info">
+                        <img src="imgs/team-01.avif" loading="lazy" alt="">
+                        <h4>Ahmed gamal</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast anf the price was amazing
+                    </p>
+                    <div class="person-info">
+                        <img src="imgs/team-02.avif" loading="lazy" alt="">
+                        <h4>Mariam Ibrahim</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast anf the price was amazing
+                    </p>
+                    <div class="person-info">
+                        <img src="imgs/team-03.avif" loading="lazy" alt="">
+                        <h4>hazem Gamal </h4>
+                        <p>CEO At Company</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonials -->
+
+
+    <!-- start contact Us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your phone" name="phone">
+                        <input type="email" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Subject" name="Subject">
+                    </div>
+                    <div class="right">
+                        <textarea class="area" name="message" placeholder="Your message"></textarea>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- end contact Us -->
+
+    <!-- start footer -->
+    <div class="footer">Creat With Love By Ahmed Gamal</div>
+    <!-- end footer -->
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
