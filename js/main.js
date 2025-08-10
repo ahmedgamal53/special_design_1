@@ -58,7 +58,7 @@ function randombackground() {
   if (backgroundoption === true) {
     backgroundinterval = setInterval(() => {
       let randomnumber = Math.floor(Math.random() * imgarry.length);
-      landingpage.style.backgroundImage = `url("../imgs/${imgarry[randomnumber]}")`;
+      landingpage.style.backgroundImage = `url("imgs/${imgarry[randomnumber]}")`;
       localStorage.setItem("background", landingpage.style.backgroundImage);
     }, 1000);
   }
